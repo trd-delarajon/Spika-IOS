@@ -114,7 +114,7 @@
         _descriptionLabel.textColor = self.backgroundColor;
     }
     else if ([keyPath isEqualToString:@"description"]) {
-        _descriptionLabel.text = _description;
+        _descriptionLabel.text = _description2;
     }
 }
 

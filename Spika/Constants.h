@@ -24,12 +24,13 @@
  */
 #import "ServerManager.h"
 
-#define ServerListAPIURL        @"http://officialapi.spikaapp.com/api/servers"
-
 /* change here */
-#define DefaultAPIEndPoint             @"http://officialapi.spikaapp.com"
-#define DefaultPageUrl             @"http://officialapi.spikaapp.com/page"
+#define ServerListAPIURL @"http://spika.trcorp.cho88.com:80/wwwroot/api/servers"
+#define DefaultAPIEndPoint @"http://spika.trcorp.cho88.com:80/wwwroot"
+#define DefaultPageUrl @"http://spika.trcorp.cho88.com:80/wwwroot/page"
 /* end change here */
+
+
 
 #define DatabaseURL             [NSString stringWithFormat:@"%@/api",[ServerManager serverBaseUrl]]
 #define HttpRootURL             [NSString stringWithFormat:@"%@/api",[ServerManager serverBaseUrl]]

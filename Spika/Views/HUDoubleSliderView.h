@@ -36,5 +36,5 @@
 @property (nonatomic, strong) UIColor *textColor;
 
 @property (nonatomic, strong) UIFont *font;
-@property (nonatomic, copy) NSString *description;
+@property (nonatomic, copy) NSString *description2;
 @end

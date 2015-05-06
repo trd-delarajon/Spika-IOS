@@ -49,7 +49,7 @@
         _doubleSlider = [[HUDoubleSliderView alloc] initWithFrame:CGRectMake(6, 54, 309, 34)];
         _doubleSlider.leftValueMax = 0;
         _doubleSlider.rightValueMax = 100;
-        _doubleSlider.description = NSLocalizedString(@"Slide to pick age..." , NULL);
+        _doubleSlider.description2 = NSLocalizedString(@"Slide to pick age..." , NULL);
         [self addSubview:_doubleSlider];
         
         UIButton *button = [HUControls buttonWithCenter:CGPointMake(160, 95)

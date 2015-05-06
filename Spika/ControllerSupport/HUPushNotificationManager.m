@@ -52,7 +52,7 @@ static dispatch_queue_t serialQueue = nil;
     static dispatch_once_t onceQueue;
     
     dispatch_once(&onceQueue, ^{
-        serialQueue = dispatch_queue_create("com.clover-studio.hookup.PushSerialQueue", NULL);
+        serialQueue = dispatch_queue_create("com.trd.hookup.PushSerialQueue", NULL); //clover-studio
         if (instance == nil) {
             instance = [super allocWithZone:zone];
         }
